@@ -1,5 +1,3 @@
-import pathlib
-
 f = open("i3.txt", "r")
 input = f.read().split("\n")
 f.close()
