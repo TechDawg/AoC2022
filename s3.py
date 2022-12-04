@@ -13,9 +13,9 @@ totalOne = 0
 totalTwo = 0
 
 for rucksack in input:
-    for char in rucksack[:int(len(rucksack)/2)]:
-        if char in rucksack[int(len(rucksack)/2):]:
-            totalOne += (itemIdentifiers.index(char)+1)
+    for c in rucksack[:int(len(rucksack)/2)]:
+        if c in rucksack[int(len(rucksack)/2):]:
+            totalOne += (itemIdentifiers.index(c)+1)
             break
         
 for count in range(100):
