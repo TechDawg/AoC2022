@@ -24,6 +24,6 @@ for line in input.splitlines()[10:]:
 #    stacks[end].extend(reversed(crane))
     stacks[end].extend(crane)
 
-partOne = ""
+solution = ""
 for stack in stacks:
-    partOne += str(stack[-1:][0])
+    solution += str(stack[-1:][0])
