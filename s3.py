@@ -23,4 +23,4 @@ for count in range(100):
             totalTwo += (itemIdentifiers.index(c)+1)
             break
 
-print("Part 1: " + str(totalOne) + "\nPart 2: " + str(totalTwo))
+print("Part 1: " + str(totalOne) + "\n" + Part 2: " + str(totalTwo))
